@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Citações e Códigos</title>
+  </head>
+  <body>
+    <h1>Outras formatações</h1>
+
+    <h2>Código-fonte</h2>
+    <p>
+      O comando <code>document.getElementById('teste')</code> é escrito em
+      linguagem JavaScript.
+      <!-- A tag <code> é usada para exibir trechos de código em uma fonte monoespaçada, 
+           tornando-os mais fáceis de ler e identificando-os como código. -->
+    </p>
+
+    <pre>
+        <code>
+    num = int(input('Digite um número')) 
+    if num % 2 == 0; 
+    print(f'0 número {num} é PAR') 
+    else: 
+    print(f'O número {num} é ÍMPAR') 
+    print('Fim do programa')
+        </code>
+    </pre>
+    <!-- A tag <pre> mantém a formatação original do texto, preservando espaços e quebras de linha.
+         A tag <code> dentro do <pre> é usada para exibir código formatado corretamente. -->
+
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo:<q> o computador é um burro muito rápido</q></p>
+    <!-- A tag <q> é usada para citações curtas. O navegador adiciona aspas automaticamente ao redor do conteúdo. -->
+
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote cite="https://books.google.com.br/books/about/HTML_XHTML_e_CSS_Para_Leigos.html?id=E8ZtDwAAQBAJ&redir_esc=y">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+    <!-- A tag <blockquote> é usada para citações mais longas, geralmente separadas do restante do texto.
+         O atributo "cite" pode ser usado para indicar a fonte da citação. -->
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, estou adorando!</p>
+    <!-- A tag <abbr> é usada para abreviações e siglas.
+         O atributo "title" exibe um tooltip com o significado completo da abreviação ao passar o mouse sobre ela. -->
+
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+    <!-- A tag <bdo> (Bidirectional Override) permite alterar a direção do texto.
+         O atributo "dir" pode ser "ltr" (da esquerda para a direita) ou "rtl" (da direita para a esquerda). -->
+  </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listas</title>
+  </head>
+  <body>
+    <h1>Trabalhando com Listas</h1>
+
+    <h2>Listas Ordenadas</h2>
+    <ol type="I" start="1">
+      <!-- A tag <ol> cria uma lista ordenada. O atributo "type" define o estilo da numeração:
+           - "1" (números padrão)
+           - "A" (letras maiúsculas)
+           - "a" (letras minúsculas)
+           - "I" (números romanos maiúsculos)
+           - "i" (números romanos minúsculos)
+           O atributo "start" define em qual número a contagem deve começar. -->
+      <li>Acordar</li>
+      <li>Tomar café</li>
+      <li>Escovar os dentes</li>
+    </ol>
+
+    <h2>Listas não ordenadas</h2>
+    <ul type="square">
+      <!-- A tag <ul> cria uma lista não ordenada. O atributo "type" define o estilo dos marcadores:
+           - "disc" (padrão, bolinhas preenchidas)
+           - "circle" (círculos vazios)
+           - "square" (quadrados preenchidos) -->
+      <li>Pão</li>
+      <li>Leite</li>
+      <li>Tomate</li>
+      <li>Manteiga</li>
+    </ul>
+
+    <h2>Juntando listas</h2>
+    <ol>
+      <li>Antigas</li>
+      <ol type="a">
+        <!-- Aqui temos uma lista aninhada dentro de um item de lista.
+             O "type" define que a numeração será com letras minúsculas. -->
+        <li>TV de tubo</li>
+        <li>Vitrola</li>
+        <li>Videocassete</li>
+      </ol>
+      <li>Novas</li>
+      <ol type="a" start="5">
+        <!-- O atributo "start" define que a numeração começará da letra "e" (5ª posição no alfabeto). -->
+        <li>Internet</li>
+        <li>Inteligência artificial</li>
+        <li>Realidade virtual</li>
+      </ol>
+    </ol>
+
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+      <li>GBA</li>
+      <ul type="square">
+        <li>Pokemon</li>
+        <ul type="circle">
+          <li>Pokemon Fire Red</li>
+        </ul>
+        <!-- As listas podem ser aninhadas, permitindo criar hierarquias de informações. -->
+        <li>Medabots</li>
+      </ul>
+      <li>PlayStation</li>
+      <ul type="square">
+        <li>Rampage</li>
+        <li>Jack Chan</li>
+      </ul>
+    </ol>
+
+    <h2>Lista de definição</h2>
+    <dl>
+      <!-- A tag <dl> define uma lista de definição.
+           Cada termo (<dt>) é seguido por sua descrição (<dd>). -->
+      <dt>HTML</dt>
+      <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+      <dt>CSS</dt>
+      <dd>Linguagem de marcação para a criação de folhas de estilos.</dd>
+    </dl>
+  </body>
+</html>
